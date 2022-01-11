@@ -1,0 +1,5 @@
+numero1 = eval(input("Introduce la nota 1 para calcular la media: "))
+numero2 = eval(input("Introduce la nota 2 para calcular la media: "))
+numero3 = eval(input("Introduce la nota 3 para calcular la media: "))
+media = (numero1+numero2+numero3) / (3)
+print("La media es", media)
