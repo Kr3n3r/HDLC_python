@@ -2,11 +2,8 @@
 import math
 
 if __name__ == '__main__':
-    edad=int(input("Introduzca su edad "))
+    lista=(1,2,3)
+    print(dir(lista))
 
-    if edad >= 18 :
-        print("Eres mayor de edad!")
-
-    print("Programa terminado")
 else:
     print("este no es el bloque principal")
