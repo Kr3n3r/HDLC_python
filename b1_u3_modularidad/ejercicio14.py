@@ -20,5 +20,6 @@ def AddPila(str,pila):
             return pila
     return print("Esta pila está llena")
 
+pila = []
 pila = InicializarPila()
 print(LongitudPila(pila))
