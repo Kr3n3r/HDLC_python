@@ -1,5 +1,5 @@
 *.pyc
 ProyectosFlask/
-ahorcado1.py
-wheeloffortune.py
-pruebamatrices.py
+./ahorcado1.py
+b1_u2_arrays/wheeloffortune.py
+b1_u2_arrays/pruebamatrices.py
