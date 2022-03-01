@@ -1,3 +1,5 @@
+from os import system
+
 class Agenda():
     def __init__(self):
         self.contactos = []
@@ -25,14 +27,15 @@ class Agenda():
 
 if __name__ == '__main__':
     agenda = Agenda()
+    system("clear")
     while True:
-        print(f'-----   MENU    -----')
-        print(f' 1.-Añadir contacto  ')
-        print(f' 2.-Lista contactos  ')
-        print(f' 3.-Buscar contacto  ')
-        print(f' 4.-Editar contacto  ')
-        print(f' 5.-Cerrar agenda    ')
-        print(f'---------------------')
+        print(f'·-----   MENU    -----·')
+        print(f'| 1.- Añadir contacto |')
+        print(f'| 2.- Lista contactos |')
+        print(f'| 3.- Buscar contacto |')
+        print(f'| 4.- Editar contacto |')
+        print(f'| 5.- Cerrar agenda   |')
+        print(f'·---------------------')
         opt = int(input('Elige una opción(1-5): '))
         if opt == 1:
             nombre = input('Introduce el nombre del nuevo contacto: ')
@@ -51,3 +54,4 @@ if __name__ == '__main__':
         if opt == 5:
             agenda.cerrar_agenda()
             break
+        system("clear")
